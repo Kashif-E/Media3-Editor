@@ -55,7 +55,6 @@ dependencies {
     implementation(libs.androidx.media3.transformer)
     implementation(libs.androidx.media3.muxer)
     implementation(libs.kotlinx.coroutines.android)
-    // Simple preview player
     implementation("com.google.android.exoplayer:exoplayer:2.19.1")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
