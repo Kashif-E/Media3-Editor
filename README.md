@@ -1,6 +1,6 @@
 # Media3 Editor
 
-A lightweight Android sample demonstrating [Jetpack Media3](https://developer.android.com/jetpack/androidx/releases/media3) as the base for a hands-on video editing assistant.
+A lightweight Android sample demonstrating [Jetpack Media3](https://developer.android.com/jetpack/androidx/releases/media3) as the base for a hands-on video editing assistant. This is not a library just comprehensive wrapper on top of media3 that can be copy pasted to your app for a more developer ergonomic way of using media3
 
 ## Features
 
@@ -34,4 +34,4 @@ Then launch the app on a device/emulator, pick a video, apply presets or custom 
 
 - The preview uses ExoPlayer `2.19.1`; deprecation warnings can be addressed later but the player functions today.
 - `MainActivity` keeps the UI state in Compose (remembering presets, inputs, progress) and surfaces errors via a `SnackbarHost`.
-- The repository now includes `.gitignore`, README, and a staged initial commit for this project.
+
